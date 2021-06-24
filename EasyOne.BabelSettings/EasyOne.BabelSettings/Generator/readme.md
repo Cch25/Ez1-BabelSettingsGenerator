@@ -26,7 +26,6 @@ We recommend providing appsettings connection string so we can correctly update 
 ```
 #eg.:
 ```
-```
 public class BabelSettings
 {
      public int Age { get; set; }
