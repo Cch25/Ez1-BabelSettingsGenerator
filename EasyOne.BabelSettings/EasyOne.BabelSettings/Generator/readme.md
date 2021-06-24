@@ -1,11 +1,9 @@
 ﻿#Please read the instructions.
 Your ***Input.cs*** file in the Generator folder is responsible for reading your properties. 
 ```The properties MUST be put inside a BabelSettings class.!!!
-```
-```We have support for Complex types (make sure you add the class for the type)
-```
+   We have support for Complex types (make sure you add the class for the type)
 ***Supported values: 
-```  ***(string, Guid, int, short, double, long, DateTime, DateTimeOffset, bool,
+***(string, Guid, int, short, double, long, DateTime, DateTimeOffset, bool,
   ***         Guid?,int?,short?,double?,long?,DateTime?,DateTimeOffset?,bool?);
 ```
 ***Lists are not supported 
@@ -20,9 +18,9 @@ Your ***Input.cs*** file in the Generator folder is responsible for reading your
  ```
 ```Appsettings.json can be configured to support mongob connection string.
 ```
-  ***This is an optional requirement, if settings are not present it will ignore this step
-**After the program completes you will have a file inside Generator folder [provided-name].json with your latest action
-**We recommend providing appsettings connection string so we can correctly update your latest action.
+ ```This is an optional requirement, if settings are not present it will ignore this step
+```After the program completes you will have a file inside Generator folder [provided-name].json with your latest action
+```We recommend providing appsettings connection string so we can correctly update your latest action.
 #eg.:
 ```
 public class BabelSettings
