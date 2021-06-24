@@ -1,13 +1,17 @@
 ﻿#Please read the instructions.
 Your ***Input.cs*** file in the Generator folder is responsible for reading your properties. 
-***The properties MUST be put inside a BabelSettings class.!!!
-***We have support for Complex types (make sure you add the class for the type)
+```The properties MUST be put inside a BabelSettings class.!!!
+```
+```We have support for Complex types (make sure you add the class for the type)
+```
 ***Supported values: 
 ```  ***(string, Guid, int, short, double, long, DateTime, DateTimeOffset, bool,
   ***         Guid?,int?,short?,double?,long?,DateTime?,DateTimeOffset?,bool?);
 ```
 ***Lists are not supported 
-  ***defaultsettings can't understand them, so please remove them from the code below
+```
+ defaultsettings can't understand them, so please remove them from the code below
+```
 ***Flags supported by the app: 
 ``` [-lang] [-settingCode]
    ***IF NOT present [-lang] provides default to -> it
