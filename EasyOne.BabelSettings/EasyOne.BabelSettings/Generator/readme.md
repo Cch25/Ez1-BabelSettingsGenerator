@@ -6,11 +6,11 @@ Your ***Input.cs*** file in the Generator folder is responsible for reading your
 ***(string, Guid, int, short, double, long, DateTime, DateTimeOffset, bool,
   ***         Guid?,int?,short?,double?,long?,DateTime?,DateTimeOffset?,bool?);
 ```
-***Lists are not supported 
+Lists are not supported 
 ```
  defaultsettings can't understand them, so please remove them from the code below
 ```
-***Flags supported by the app: 
+Flags supported by the app: 
 ``` [-lang] [-settingCode]
    ***IF NOT present [-lang] provides default to -> it
    ***IF NOT present [-override] provides default to -> false
@@ -18,10 +18,14 @@ Your ***Input.cs*** file in the Generator folder is responsible for reading your
  ```
 ```Appsettings.json can be configured to support mongob connection string.
 ```
- ```This is an optional requirement, if settings are not present it will ignore this step
-```After the program completes you will have a file inside Generator folder [provided-name].json with your latest action
-```We recommend providing appsettings connection string so we can correctly update your latest action.
+This is an optional requirement, if settings are not present it will ignore this step
+After the program completes you will have a file inside Generator folder [provided-name].json with your latest action
+
+```
+We recommend providing appsettings connection string so we can correctly update your latest action.
+```
 #eg.:
+```
 ```
 public class BabelSettings
 {
