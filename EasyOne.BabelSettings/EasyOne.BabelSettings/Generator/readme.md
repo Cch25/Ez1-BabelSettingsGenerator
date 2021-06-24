@@ -16,6 +16,7 @@ We have support for Complex types (make sure you add the class for the type)
 **After the program completes you will have a file inside Generator folder [provided-name].json with your latest action
 **We recommend providing appsettings connection string so we can correctly update your latest action.
 #eg.:
+```
 public class BabelSettings
 {
      public int Age { get; set; }
@@ -35,3 +36,4 @@ public class BabelSettings
    public int? ChildChild1 { get; set; }
    public double? ChildChild2 { get; set; }
  }
+ ```
